@@ -1,7 +1,5 @@
 on:
-    push:
-        branches:
-            - master
+    workflow_dispatch:
 jobs:
     docker-proc:
         runs-on: ubuntu-latest
